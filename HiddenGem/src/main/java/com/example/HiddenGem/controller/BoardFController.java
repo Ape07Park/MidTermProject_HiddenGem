@@ -218,7 +218,7 @@ public class BoardFController {
 		query = "";
 		int count = (int) Math.ceil(boardFService.getBoardFCount(field, query) / 4);
 		model.addAttribute("boardfList", boardfList);
-		model.addAttribute("boardCount", count);
+		model.addAttribute("boardCount", count+2);
 
 		return "boardf/main";
 	}
