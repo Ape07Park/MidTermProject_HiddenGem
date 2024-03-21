@@ -147,15 +147,17 @@ public class BoardFController {
 			model.addAttribute("fileList", fileList);
 		}
 		
-//		// 사진 경로 처리
-//		List<BoardF> boardfList = new ArrayList<>();
-//		boardfList = boardFService.getBoardFListUsedMain();
-//		int count = (int) Math.ceil(boardFService.getBoardFCount("b.location", "") / 4);
-//		List<String> pickPic = new ArrayList<>(); 
-//		for (BoardF board: boardfList) {
-//			board.setFoodImg(board.getFoodImg().split("\""));
-//			pickOnePic.add(board);
-//		}
+		// 사진 경로 처리
+		List<BoardF> boardfList = boardFService.getBoardFListUsedMain();
+		int count = (int) Math.ceil(boardFService.getBoardFCount("b.location", "") / 4);
+		List<String> pickPicList = new ArrayList<>();
+		for (int i = 0; i < boardfList.size();i++) {
+			pickPicList.add(boardfList.get(i).getFoodImg());
+		}
+		for (String pickPic: pickPicList) {
+			pickPic.split("\"");
+			System.out.println(pickPic);
+		}
 		
 		model.addAttribute("boardf", boardf);
 		// 좋아요 처리
