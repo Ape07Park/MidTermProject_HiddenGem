@@ -41,26 +41,26 @@
 				font-size: 15px;
 			}
 
-	.name-style {
-    font-size: 20px;
-    margin-bottom: 10px;
-    display: inline-block;
-    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8a2be2);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbowAnimation 3s linear infinite;
-}
+			.name-style {
+				font-size: 20px;
+				margin-bottom: 10px;
+				display: inline-block;
+				background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8a2be2);
+				background-clip: text;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				animation: rainbowAnimation 3s linear infinite;
+			}
 
-@keyframes rainbowAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
+			@keyframes rainbowAnimation {
+				0% {
+					background-position: 0% 50%;
+				}
 
-    100% {
-        background-position: 100% 50%;
-    }
-}
+				100% {
+					background-position: 100% 50%;
+				}
+			}
 		</style>
 		<script>
 			$(document).ready(function () {
@@ -80,7 +80,6 @@
 						<a class="navbar-brand ms-3 me-5" href="/mid/boardf/main"><img src="/mid/img/hiddengem_logo.png"
 								height="60"></a>
 					</ul>
-					<a class="nav-link menu-color me-5" href="/mid/boardf/company" style="display: inline-block;"><i class="fa-solid fa-building"></i> 회사 소개 </a>
 					<span th:if="${session.sessUid}">
 						<span class="navbar-text me-3 menu-color">[[${session.sessUname}]]님 </span>
 						<br>
@@ -88,9 +87,11 @@
 					</span>
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
+					<a class="nav-link menu-color me-2" href="/mid/boardf/company" style="display: inline-block;"><i
+							class="fa-solid fa-building"></i> 회사 소개 </a>
 							<span th:if="${session.sessUid}">
 								<a class="nav-link menu-color" th:href="@{/user/mypage/{x}(x=${session.sessUid})} "
-									style="display: inline-block;"><i class="fa-solid fa-image-portrait"></i>마이페이지</a>
+									style="display: inline-block;"><i class="fa-solid fa-image-portrait me-2"></i>마이페이지</a>
 								<a class="nav-link menu-color" href="/mid/user/logout" style="display: inline-block;"><i
 										class="fas fa-sign-out-alt"></i> 로그아웃</a>
 							</span>
