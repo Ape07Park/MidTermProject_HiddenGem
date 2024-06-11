@@ -5,6 +5,8 @@
 - 2024년 3월 14일 ~ 2024년 3월 22일
 
 # [1] 기술 스택
+backend: java, springBoot, MySQL, MyBatis
+front: Thymeleaf, Bootstrap
 
 # [2] 주요 기능
 ## 유저
