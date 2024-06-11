@@ -31,7 +31,9 @@
 ![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/249ce3bc-b9fa-4807-9015-783d4ce3dccc)
 
 # [5] API 명세
-![image](https://github.com/Ape07Park/Final-project-24.05-integralation/assets/132667775/3a5ba29d-a5d8-4643-9bef-6842265f0861)
+![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/b6e0fea6-fea4-47e9-ae26-e42d04105906)
+![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/7a892438-15ab-4e72-8af4-ac1fb26be92e)
+![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/85b85b1e-70b4-45ab-b984-3e4089355f5d)
 
 # [6] 서비스 구성
 
@@ -48,13 +50,3 @@
 ## [6] 맛집 검색 ![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/967f62b1-54b2-4f3c-87ad-3f2e30eb7532)
 
 ## [7] 맛집 상세 및 리뷰 ![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/0a61ca49-895e-4312-968f-3b14f0ef4cce)
-
-
-
-
-
-
-
-
-
-![image](https://github.com/Ape07Park/MidTermProject_HiddenGem/assets/132667775/e335cd34-9ee8-4543-8670-dc0da840c112)
